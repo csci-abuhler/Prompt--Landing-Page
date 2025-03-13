@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.logo-product {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.login-signup-buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.sign-up:hover {
+  background-color: rgb(86, 202, 248);
+}
+
+.product-name {
+  font-size: 150%;
+  margin: 12px;
+}
+
+.home,
+.about,
+.pages,
+.blog,
+.contact,
+.login,
+.sign-up {
+  height: 100%;
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 75%;
+  font-size: 150%;
+  border: none;
+  background: none;
+  transition: 0.3s;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.sign-up {
+  width: 200px;
+  background-color: rgb(0, 222, 252);
+}
