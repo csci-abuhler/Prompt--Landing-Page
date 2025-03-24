@@ -26,6 +26,7 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 
 .home:hover,
@@ -79,4 +80,27 @@
   font-size: 35px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+}
+
+.main-content-buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-content-image {
+  height: 24px;
+  padding: 5px;
+}
+
+.main-content-watch-demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page-image {
+  width: 100%;
+  height: auto;
 }
