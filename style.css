@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 200px;
+  height: 100px;
   background-color: rgb(86, 202, 248);
 }
 
@@ -70,10 +70,6 @@ body {
   height: 100%;
 }
 
-.sign-up {
-  width: 250px;
-}
-
 .main-content-title {
   font-size: 125px;
   text-align: center;
@@ -91,11 +87,19 @@ body {
   justify-content: center;
   align-content: center;
   font-family: "Times New Roman", Times, serif;
+  gap: 10px;
+}
+
+.ratings-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .main-content-image {
   height: 24px;
-  padding: 5px;
+  padding-right: 5px;
 }
 
 .main-content-watch-demo {
@@ -107,4 +111,50 @@ body {
 .main-page-image {
   width: 100%;
   height: auto;
+}
+
+.main-content-signup,
+.main-content-watch-demo {
+  border-radius: 12px;
+}
+
+.ratings-section-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+}
+
+.review-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.ratings-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ratings-section-review-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+}
+
+.review-stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.ratings-section-review-list-first-option,
+.ratings-section-review-list-second-option,
+.ratings-section-review-list-third-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
