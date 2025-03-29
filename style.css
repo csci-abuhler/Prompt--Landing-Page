@@ -158,3 +158,83 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+.analytics-section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.analytics-section-top-text {
+  font-size: 45px;
+}
+
+.analytics-section-top-button {
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.analytics-section-top-graphs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.analytics-section-top-graphs-one,
+.analytics-section-top-graphs-two,
+.analytics-section-top-graphs-three {
+  width: 356px;
+  padding: 10px;
+}
+
+.analytics-section-top-graphs-one-title,
+.analytics-section-top-graphs-two-title,
+.analytics-section-top-graphs-three-title {
+  font-size: 30px;
+}
+
+.analytics-section-top-graphs-one-paragraph,
+.analytics-section-top-graphs-two-paragraph,
+.analytics-section-top-graphs-three-paragraph {
+  font-size: 22px;
+}
+
+.revenue-section-outer-information-subtitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.revenue-section-outer-information-title {
+  font-size: 52px;
+}
+
+.revenue-section-outer-information-paragraph {
+  font-size: 20px;
+}
+
+.revenue-section-outer-container {
+  width: auto;
+}
+
+.revenue-section-inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.revenue-section-outer-information-side-images-one {
+  margin-top: 15px;
+}
+
+.revenue-section-outer-information-side-images-two {
+  margin-top: 100px;
+}
+
+.revenue-section-outer-information-side-images-three {
+  margin-top: 105px;
+}
