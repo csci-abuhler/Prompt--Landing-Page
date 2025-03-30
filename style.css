@@ -238,3 +238,33 @@ body {
 .revenue-section-outer-information-side-images-three {
   margin-top: 105px;
 }
+
+.integration-section {
+  margin-top: 20px;
+}
+
+.integration-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.integration-section-title-text {
+  font-size: 52px;
+  width: 50%;
+}
+
+.integration-section-title-button {
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.integration-section-moving-images {
+  display: flex;
+  margin: 5px;
+  gap: 30px;
+}
+
+.integration-section-moving-images-one {
+}
