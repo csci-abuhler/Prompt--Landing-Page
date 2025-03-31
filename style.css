@@ -264,7 +264,16 @@ body {
   display: flex;
   margin: 5px;
   gap: 30px;
+  overflow: hidden;
+  white-space: wrap;
+  animation: bannermove 15s linear infinite;
 }
 
-.integration-section-moving-images-one {
+@keyframes bannermove {
+  0% {
+    transform: translate(-120%, 0);
+  }
+  100% {
+    transform: translate(100%, 0);
+  }
 }
