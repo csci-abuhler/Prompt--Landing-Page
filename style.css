@@ -308,3 +308,15 @@ body {
   margin: 5px;
   gap: 30px;
 }
+
+.qna-section-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 55px;
+}
+
+.qna-section-outer-section {
+  display: flex;
+  flex-direction: column;
+}
