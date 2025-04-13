@@ -264,11 +264,43 @@ body {
   border-radius: 15px;
 }
 
-.integration-section-moving-images-section-one {
+@keyframes imageAnimationOne {
+  from {
+    left: 0;
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes imageAnimationTwo {
+  from {
+    left: 0;
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.integration-section-moving-images-section-one,
+.integration-section-moving-images-section-two {
+  overflow: hidden;
+}
+
+.integration-section-moving-images-one {
   display: flex;
   margin: 5px;
-  gap: 5px;
-  left: 0;
+  transform: translateX(-100%);
+  flex-direction: row;
+  animation: imageAnimationOne 10s linear infinite;
+}
+
+.integration-section-moving-images-two {
+  display: flex;
+  margin: 5px;
+
+  flex-direction: row;
+  animation: imageAnimationTwo 10s linear infinite;
 }
 
 .integration-section-moving-images-inner-container {
