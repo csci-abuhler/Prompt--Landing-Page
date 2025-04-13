@@ -316,7 +316,74 @@ body {
   font-size: 55px;
 }
 
-.qna-section-outer-section {
+#qna-section-all-faq-button-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+}
+
+#qna-section-all-faq-button {
+  font-size: 40px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.qna-section-top-section {
   display: flex;
   flex-direction: column;
+}
+
+#question-one,
+#question-two,
+#question-three,
+#question-four,
+#question-five {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 37px;
+  margin: 20px;
+}
+
+#question-one-button,
+#question-two-button,
+#question-three-button,
+#question-four-button,
+#question-five-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+#question-one-answer,
+#question-two-answer,
+#question-three-answer,
+#question-four-answer,
+#question-five-answer {
+  font-size: 30px;
+  margin: 15px;
+}
+
+#question-one-button:hover,
+#question-two-button:hover,
+#question-three-button:hover,
+#question-four-button:hover,
+#question-five-button:hover {
+  background-color: grey;
+}
+
+.qna-section-question-one,
+.qna-section-question-two,
+.qna-section-question-three,
+.qna-section-question-four,
+.qna-section-question-five {
+  border-style: solid;
+  border-color: black;
+}
+
+#qna-section-all-faq-button {
+  background-color: rgb(86, 202, 248);
 }
