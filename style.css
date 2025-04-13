@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -260,20 +264,15 @@ body {
   border-radius: 15px;
 }
 
-.integration-section-moving-images {
+.integration-section-moving-images-section-one {
+  display: flex;
+  margin: 5px;
+  gap: 5px;
+  left: 0;
+}
+
+.integration-section-moving-images-inner-container {
   display: flex;
   margin: 5px;
   gap: 30px;
-  overflow: hidden;
-  white-space: wrap;
-  animation: bannermove 15s linear infinite;
-}
-
-@keyframes bannermove {
-  0% {
-    transform: translate(-120%, 0);
-  }
-  100% {
-    transform: translate(100%, 0);
-  }
 }
