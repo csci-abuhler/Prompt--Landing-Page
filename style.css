@@ -456,7 +456,7 @@ body {
 }
 
 #footer-section-outer-container-middle-textarea {
-  background-color: chartreuse;
+  margin: 10px;
   width: 100%;
   height: 400px;
 }
@@ -475,4 +475,224 @@ body {
 
 #footer-section-outer-container-middle-textarea-content {
   font-size: 25px;
+}
+
+/* Animations and set up for x button */
+#social-media-buttons-x {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  background-color: grey;
+  padding: 2px;
+  border-radius: 80%;
+}
+
+#x-image {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+#x-image-2 {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+#x-slider {
+  display: flex;
+  flex-direction: column;
+  animation: socialImageAnimationXIn 0.5s linear forwards;
+}
+
+#x-slider:hover {
+  animation: socialImageAnimationXOut 0.5s linear forwards;
+}
+
+@keyframes socialImageAnimationXIn {
+  from {
+    top: 0px;
+  }
+
+  to {
+    transform: translate3d(0, -40px, 0);
+  }
+}
+
+@keyframes socialImageAnimationXOut {
+  0% {
+    transform: translate3d(0, -40px, 0);
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+/* Facebook button setup and animation */
+#social-media-buttons-facebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  background-color: grey;
+  padding: 2px;
+  border-radius: 80%;
+}
+
+#facebook-image {
+  padding: 10px;
+  width: 13px;
+  height: 20px;
+}
+
+#facebook-image-2 {
+  padding: 10px;
+  width: 13px;
+  height: 20px;
+}
+
+#facebook-slider {
+  display: flex;
+  flex-direction: column;
+  animation: socialImageAnimationFacebookIn 0.5s linear forwards;
+}
+
+#facebook-slider:hover {
+  animation: socialImageAnimationFacebookOut 0.5s linear forwards;
+}
+
+@keyframes socialImageAnimationFacebookIn {
+  from {
+    top: 0px;
+  }
+
+  to {
+    transform: translate3d(0, -40px, 0);
+  }
+}
+
+@keyframes socialImageAnimationFacebookOut {
+  0% {
+    transform: translate3d(0, -40px, 0);
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+/* Instagram button setup and animation */
+#social-media-buttons-instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  background-color: grey;
+  padding: 2px;
+  border-radius: 80%;
+}
+
+#instagram-image {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+#instagram-image-2 {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+#instagram-slider {
+  display: flex;
+  flex-direction: column;
+  animation: socialImageAnimationInstagramIn 0.5s linear forwards;
+}
+
+#instagram-slider:hover {
+  animation: socialImageAnimationInstagramOut 0.5s linear forwards;
+}
+
+@keyframes socialImageAnimationInstagramIn {
+  from {
+    top: 0px;
+  }
+
+  to {
+    transform: translate3d(0, -40px, 0);
+  }
+}
+
+@keyframes socialImageAnimationInstagramOut {
+  0% {
+    transform: translate3d(0, -40px, 0);
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+/* Indeed button setup and animation */
+#social-media-buttons-indeed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  background-color: grey;
+  padding: 2px;
+  border-radius: 80%;
+}
+
+#indeed-image {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+#indeed-image-2 {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+#indeed-slider {
+  display: flex;
+  flex-direction: column;
+  animation: socialImageAnimationIndeedIn 0.5s linear forwards;
+}
+
+#indeed-slider:hover {
+  animation: socialImageAnimationIndeedOut 0.5s linear forwards;
+}
+
+@keyframes socialImageAnimationIndeedIn {
+  from {
+    top: 0px;
+  }
+
+  to {
+    transform: translate3d(0, -40px, 0);
+  }
+}
+
+@keyframes socialImageAnimationIndeedOut {
+  0% {
+    transform: translate3d(0, -40px, 0);
+  }
+
+  100% {
+    top: 0px;
+  }
 }
